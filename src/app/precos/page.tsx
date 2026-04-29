@@ -35,11 +35,14 @@ export default function Precos() {
                 <span className="text-4xl font-black">R$ 117</span>
                 <span className="text-gray-400 text-sm">/mês</span>
               </div>
-              <button
-                className="w-full py-4 rounded-xl font-bold transition-all hover:opacity-90 active:scale-95 text-white bg-surface-container-highest/20 hover:bg-primary-container"
+              <a
+                href="https://wa.me/5544991666498"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full block text-center py-4 rounded-xl font-bold transition-all hover:opacity-90 active:scale-95 text-white bg-surface-container-highest/20 hover:bg-primary-container"
               >
                 Reservar Box
-              </button>
+              </a>
             </div>
           </div>
 
@@ -60,12 +63,15 @@ export default function Precos() {
                 <span className="text-4xl font-black">R$ 289</span>
                 <span className="text-gray-400 text-sm">/mês</span>
               </div>
-              <button
-                className="w-full py-4 rounded-xl font-bold transition-all hover:opacity-90 active:scale-95 text-white shadow-lg"
+              <a
+                href="https://wa.me/5544991666498"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full block text-center py-4 rounded-xl font-bold transition-all hover:opacity-90 active:scale-95 text-white shadow-lg"
                 style={{ backgroundColor: "rgb(255, 87, 34)" }}
               >
                 Reservar Box
-              </button>
+              </a>
             </div>
           </div>
 
@@ -84,11 +90,14 @@ export default function Precos() {
               <div className="mb-8">
                 <span className="text-4xl font-black">Sob consulta</span>
               </div>
-              <button
-                className="w-full py-4 rounded-xl font-bold transition-all hover:opacity-90 active:scale-95 text-white bg-surface-container-highest/20 hover:bg-primary-container"
+              <a
+                href="https://wa.me/5544991666498"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full block text-center py-4 rounded-xl font-bold transition-all hover:opacity-90 active:scale-95 text-white bg-surface-container-highest/20 hover:bg-primary-container"
               >
                 Falar com consultor
-              </button>
+              </a>
             </div>
           </div>
         </div>

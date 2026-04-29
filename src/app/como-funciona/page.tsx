@@ -112,12 +112,15 @@ export default function ComoFunciona() {
               Junte-se a centenas de empresas e famílias que confiam na Guarda Espaço para cuidar do que é importante. A solução definitiva em self-storage para Maringá e região.
             </p>
           </div>
-          <button
-            className="w-full md:w-auto relative z-10 bg-primary text-white px-10 py-5 rounded-xl font-bold text-lg hover:opacity-90 active:scale-95 transition-all whitespace-nowrap"
+          <a
+            href="https://wa.me/5544991666498"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full md:w-auto text-center relative z-10 bg-primary text-white px-10 py-5 rounded-xl font-bold text-lg hover:opacity-90 active:scale-95 transition-all whitespace-nowrap inline-block"
             style={{ backgroundColor: "rgb(255, 87, 34)" }}
           >
             Ver Preços e Tamanhos
-          </button>
+          </a>
           <div className="absolute -right-24 top-0 w-96 h-96 bg-primary/20 rounded-full blur-[100px] pointer-events-none"></div>
         </div>
       </div>
