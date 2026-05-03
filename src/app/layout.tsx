@@ -1,9 +1,10 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import { cn } from "@/lib/utils";
 import TopNavBar from "@/components/TopNavBar";
 import Footer from "@/components/Footer";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -18,6 +19,10 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   title: "Guarda Espaço | O Melhor Preço em Maringá",
   description: "Self-storage de alto padrão em Maringá com o compromisso do melhor preço da região. A partir de R$ 50/m².",
+};
+
+export const viewport: Viewport = {
+  themeColor: "#ffffff",
 };
 
 export default function RootLayout({
@@ -77,6 +82,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           </svg>
           <span>Chamar no WhatsApp</span>
         </a>
+        <Analytics />
       </body>
     </html>
   );
