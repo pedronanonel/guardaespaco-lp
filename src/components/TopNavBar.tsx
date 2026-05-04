@@ -182,7 +182,7 @@ export default function TopNavBar() {
         </Link>
         <Link className="flex flex-col items-center justify-center text-[#656464] dark:text-[#e4e2e1] px-4 py-2 hover:bg-[#e5e2e1] dark:hover:bg-white/10 transition-colors rounded-2xl tap-highlight-transparent active:scale-90 transition-transform" href="/como-funciona">
           <span className="material-symbols-outlined">grid_view</span>
-          <span className="font-['Inter'] text-[10px] font-bold uppercase tracking-widest mt-1">Unidades</span>
+          <span className="font-['Inter'] text-[10px] font-bold uppercase tracking-widest mt-1">Como Func.</span>
         </Link>
         <Link className="flex flex-col items-center justify-center text-[#656464] dark:text-[#e4e2e1] px-4 py-2 hover:bg-[#e5e2e1] dark:hover:bg-white/10 transition-colors rounded-2xl tap-highlight-transparent active:scale-90 transition-transform" href="/precos">
           <span className="material-symbols-outlined">payments</span>
