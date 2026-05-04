@@ -26,6 +26,12 @@ export default function TopNavBar() {
             </Link>
             <Link
               className="font-['Plus_Jakarta_Sans'] font-bold tracking-[-0.02em] text-[#656464] dark:text-[#e4e2e1] hover:text-[#ad3300] transition-all duration-300"
+              href="/calculadora"
+            >
+              Calculadora
+            </Link>
+            <Link
+              className="font-['Plus_Jakarta_Sans'] font-bold tracking-[-0.02em] text-[#656464] dark:text-[#e4e2e1] hover:text-[#ad3300] transition-all duration-300"
               href="/precos"
             >
               Preços
@@ -119,6 +125,14 @@ export default function TopNavBar() {
           >
             <span className="material-symbols-outlined">info</span>
             Como funciona
+          </Link>
+          <Link
+            onClick={() => setIsMobileMenuOpen(false)}
+            className="font-['Plus_Jakarta_Sans'] font-bold text-lg text-[#656464] dark:text-[#e4e2e1] hover:text-[#ad3300] flex items-center gap-4"
+            href="/calculadora"
+          >
+            <span className="material-symbols-outlined">calculate</span>
+            Calculadora
           </Link>
           <Link
             onClick={() => setIsMobileMenuOpen(false)}
