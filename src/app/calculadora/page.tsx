@@ -44,7 +44,7 @@ const CATEGORIES = [
     icon: "kitchen",
     items: [
       { id: "geladeira", name: "Geladeira", volume: 0.9 },
-      { id: "maq_lavar", name: "Mák. Lavar", volume: 0.3 },
+      { id: "maq_lavar", name: "Máq. Lavar", volume: 0.3 },
       { id: "secadora", name: "Secadora", volume: 0.3 },
       { id: "fogao", name: "Fogão", volume: 0.3 },
       { id: "microondas", name: "Microondas", volume: 0.10 },
