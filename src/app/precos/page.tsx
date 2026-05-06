@@ -32,6 +32,7 @@ export default function Precos() {
             </div>
             <div className="mt-auto">
               <div className="mb-8">
+                <span className="text-sm font-bold text-gray-400 block mb-1 uppercase tracking-wider">A partir de</span>
                 <span className="text-4xl font-black">R$ 117</span>
                 <span className="text-gray-400 text-sm">/mês</span>
               </div>
@@ -60,6 +61,7 @@ export default function Precos() {
             </div>
             <div className="mt-auto">
               <div className="mb-8">
+                <span className="text-sm font-bold text-gray-400 block mb-1 uppercase tracking-wider">A partir de</span>
                 <span className="text-4xl font-black">R$ 289</span>
                 <span className="text-gray-400 text-sm">/mês</span>
               </div>
