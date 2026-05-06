@@ -33,9 +33,9 @@ export default function Home() {
           </div>
           <div className="relative h-[600px] lg:h-[800px] w-full bg-surface-container-low rounded-3xl overflow-hidden group">
             <img 
-              alt="Interior of a ultra-modern and clean self-storage facility with orange accents, bright lighting, and shiny metallic doors" 
+              alt="Corredor do Guarda Espaço com boxes modernos e seguros" 
               className="w-full h-full object-cover grayscale-[0.3] group-hover:grayscale-0 transition-all duration-700" 
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDmHHrb-aEot9B1BJFTql8yc70ZZZZvAD9BuLV3xcp6QppRKtbRqoWTSbhEBwkt2Uyhc3tbF5Nkdxt29-2B0cqxiAx5E9H01yPcQROe3R57b4vVBwK0gMRnLWNNFk4XZqRVa527_i7tP0PKBzXcd1OPeHUDXuNht5kv3yj0QMSFijD3wJLVNiVdBdmE4SxQVB7Ukf84hX-CDY2Vw0WpPzuIYBnSVyUBpYoVSiAdzmEDbRfRMAibO_XkKASTYHfH0C4aci4qKzYgsc" 
+              src="https://xiqzt7r8be3t3l2t.public.blob.vercel-storage.com/BOX%20GUARDA%20ESPACO%20CORREDOR.webp" 
             />
             <div className="absolute bottom-8 right-8 bg-surface-bright/90 backdrop-blur-md p-8 rounded-2xl shadow-2xl max-w-xs">
               <div className="flex items-center gap-2 text-[#FF5722] mb-2">
