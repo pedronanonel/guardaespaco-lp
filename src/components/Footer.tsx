@@ -9,10 +9,19 @@ export default function Footer() {
           <div className="text-xl font-bold text-white mb-4 uppercase tracking-tighter">
             Guarda Espaço
           </div>
-          <p className="text-gray-300 font-['Inter'] text-sm leading-relaxed max-w-sm">
-            © 2024 Guarda Espaço. O seu espaço, protegido com maestria. <br />
-            Líder em self storage inteligente no sul do Brasil.
-          </p>
+          <div className="text-gray-300 font-['Inter'] text-sm leading-relaxed max-w-sm space-y-4">
+            <p>
+              © 2026 GUARDA ESPACO SELF STORAGE LTDA.<br />
+              Todos os direitos reservados.<br />
+              CNPJ: 64.624.506/0001-54
+            </p>
+            <p>
+              <a href="mailto:contato@guardaespaco.com.br" className="flex items-center gap-2 hover:text-[#ff5716] transition-colors">
+                <span className="material-symbols-outlined text-[18px]">mail</span>
+                contato@guardaespaco.com.br
+              </a>
+            </p>
+          </div>
         </div>
         <div>
           <h5 className="text-white font-bold mb-6">Links Rápidos</h5>
