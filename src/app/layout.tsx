@@ -1,20 +1,15 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
-import { Inter, Plus_Jakarta_Sans } from "next/font/google";
+import "@fontsource/tasa-orbiter/400.css";
+import "@fontsource/tasa-orbiter/500.css";
+import "@fontsource/tasa-orbiter/600.css";
+import "@fontsource/tasa-orbiter/700.css";
+import "@fontsource/tasa-orbiter/800.css";
+
 import { cn } from "@/lib/utils";
 import TopNavBar from "@/components/TopNavBar";
 import Footer from "@/components/Footer";
 import { Analytics } from "@vercel/analytics/next";
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-body",
-});
-
-const plusJakartaSans = Plus_Jakarta_Sans({
-  subsets: ["latin"],
-  variable: "--font-headline",
-});
 
 export const metadata: Metadata = {
   title: "Guarda Espaço | O Melhor Preço em Maringá",
@@ -31,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR" className={cn("scroll-smooth", inter.variable, plusJakartaSans.variable)}>
+    <html lang="pt-BR" className={cn("scroll-smooth")}>
       <head>
         {/* Google Tag Manager */}
         <script
@@ -46,13 +41,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         {/* End Google Tag Manager */}
         <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
         <style dangerouslySetInnerHTML={{ __html: `
+          :root {
+            --font-body: 'TASA Orbiter', sans-serif;
+            --font-headline: 'TASA Orbiter', sans-serif;
+          }
           .material-symbols-outlined {
             font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
             vertical-align: middle;
           }
-          body { font-family: var(--font-body), sans-serif; }
-          h1, h2, h3, h4, h5, h6, .font-headline, .font-\\[\\'Plus_Jakarta_Sans\\'\\] { font-family: var(--font-headline), sans-serif; }
-          .font-\\[\\'Inter\\'\\] { font-family: var(--font-body), sans-serif; }
+          body { font-family: var(--font-body); }
+          h1, h2, h3, h4, h5, h6, .font-headline, .font-\\[\\'Plus_Jakarta_Sans\\'\\] { font-family: var(--font-headline); }
+          .font-\\[\\'Inter\\'\\] { font-family: var(--font-body); }
         `}} />
       </head>
       <body className="bg-background text-on-background antialiased overflow-x-hidden pb-24 md:pb-0">
