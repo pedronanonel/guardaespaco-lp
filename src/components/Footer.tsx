@@ -66,7 +66,7 @@ export default function Footer() {
             <li>
               <Link
                 className="text-gray-300 hover:text-[#ff5716] transition-colors cursor-pointer"
-                href="#"
+                href="/termos"
               >
                 Termos de Uso
               </Link>
@@ -74,7 +74,7 @@ export default function Footer() {
             <li>
               <Link
                 className="text-gray-300 hover:text-[#ff5716] transition-colors cursor-pointer"
-                href="#"
+                href="/privacidade"
               >
                 Política de Privacidade
               </Link>
