@@ -28,19 +28,17 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className={cn("scroll-smooth")}>
       <head>
-        {/* Google tag (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11250218538"></script>
+        {/* Google Tag Manager */}
         <script
           dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-
-              gtag('config', 'AW-11250218538');
-            `,
+            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-58GFXM39');`
           }}
         />
+        {/* End Google Tag Manager */}
         <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
         <style dangerouslySetInnerHTML={{ __html: `
           :root {
@@ -58,14 +56,8 @@ export default function RootLayout({
       </head>
       <body className="bg-background text-on-background antialiased overflow-x-hidden pb-24 md:pb-0">
         {/* Google Tag Manager (noscript) */}
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-58GFXM39"
-            height="0"
-            width="0"
-            style={{ display: "none", visibility: "hidden" }}
-          />
-        </noscript>
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58GFXM39"
+        height="0" width="0" style={{display: "none", visibility: "hidden"}}></iframe></noscript>
         {/* End Google Tag Manager (noscript) */}
         <TopNavBar />
         {children}
